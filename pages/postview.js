@@ -1,8 +1,11 @@
 import React , {Component} from 'react';
-import Page from "../components/Page";
-import css from '../assets/scss/index.scss';
+import Seo from "../components/Seo";
+import '../assets/scss/index.scss';
 
-export default class PostView extends Component {
+import {PostHeader, PostTitle ,  PostLayout, PostImage, PostUtils , PostUtilsItems , PostData , PostHelper} from '../components/PostView';
+import {Row , Container , Col} from "react-bootstrap";
+
+class PostView extends Component {
 
     static async getInitialProps({ query, res }) {
 
@@ -25,15 +28,36 @@ export default class PostView extends Component {
         }
 
         return(
-            <Page title={post.title}
+            <Seo title={post.title}
                   description="Description"
                   image="image"
                   location={"/@"+post.username+"/"+post.postslug}>
 
-                <h1>{post.title} by {post.username}</h1>
+                  <Row noGutters={true}>
+                    <Col sm={12} md={9} className="mt-3 mb-3">
+                        <PostLayout>
+                                <PostHeader author="Emin Muhammadi"
+                                            date="29 Oct 2019"
+                                            src="https://dummyimage.com/64x64/"
+                                            alt="Image Alt"
+                                            children={<PostUtils children={<PostUtilsItems/>}/>}/>
 
-                <code>{post.postslug}</code>
-            </Page>
+                            <PostTitle name={post.title}/>
+
+                            <PostImage src="https://dummyimage.com/16:9x1080/" alt="Image Alt"/>
+                            <PostHelper/>
+                            <PostData html="<p>Hello World</p>"/>
+                        </PostLayout>
+                    </Col>
+
+                    <Col sm={12} md={3} className="mt-3 mb-3">
+                        <Container>
+                            Sidebar
+                        </Container>
+                    </Col>
+                  </Row>
+            </Seo>
         );
     }
 }
+export  default PostView;

@@ -1,0 +1,93 @@
+/**
+  Post Layout
+ */
+.post-layout {
+  background-color: #ffffff;
+  border:1px solid $gray-200;
+}
+/**
+   Post Header
+ */
+.post-header {
+  border-bottom: 1px solid $gray-200;
+}
+/**
+  Post Header Utils Items
+ */
+.post-utils-items {
+
+}
+.modal-content {
+  .list-group {
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .list-group .red {
+    color:#ee535f;
+    font-weight: bold;
+  }
+
+  li[data-dismiss="modal"]{
+    font-weight: bold;
+  }
+}
+/**
+   Post Image
+ */
+.post-image {
+  @include aspect-ratio(16,9);
+  @include center(x);
+  box-sizing:border-box;
+  background-color:#ffffff;
+}
+/**
+  Author
+ */
+.author {
+
+  .title{
+
+  }
+
+  .image {
+    height: 64px;
+    width: 64px;
+    @include aspect-ratio(1,1);
+    @include center(y);
+    background-color: #fafafa;
+  }
+}
+/**
+    Responsive inside tags (post-data)
+ */
+.post-data{
+  word-break: break-all !important;
+  img,picture,figure,fieldset,frameset{
+    @include center(x);
+    @include aspect-ratio(16,9);
+    max-width: 100% !important;
+    height: auto !important;
+    box-sizing: border-box;
+  }
+  iframe {
+    @include center(x);
+    @include aspect-ratio(16,9);
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+}
+/**
+   Post Title
+ */
+.post-title {
+  alignment: left;
+  text-align: left;
+  word-break: break-all;
+}
+/**
+   Post Helper
+ */
+.post-helper {
+  border-bottom: 1px solid $gray-200;
+}

@@ -1,8 +1,8 @@
 {
-  "name": "3mig4-react",
+  "name": "react-ssr",
   "version": "0.0.1",
   "description": "3mig4 by @eminmuhammadi",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
@@ -30,6 +30,7 @@
     "emiga",
     "3mig4",
     "react-ssr",
+    "3mig4-react",
     "ssr"
   ],
   "author": "Emin Muhammadi <muemin17631@sabah.edu.az>",
