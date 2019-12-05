@@ -5,6 +5,8 @@ module.exports = {
     devIndicators: {
         autoPrerender: false,
     },
+    useFileSystemPublicRoutes: false,
+    poweredByHeader: false,
 };
 
 module.exports = withCSS(withSass({

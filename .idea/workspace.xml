@@ -2,53 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21c19f08-47bd-4b5f-9f6c-8a60b72247c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scss/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/about.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/blog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/loader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/assets/arvidsson.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/assets/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/assets/pekka.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/authenticated-route/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/page/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/unauthenticated-route/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/routes/about/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/routes/dashboard/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/routes/homepage/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/routes/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/routes/login/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/routes/logout/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/routes/not-found/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/routes/profile/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/auth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/profile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/blog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/postview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +31,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="H:\WebStorm 2019.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -90,7 +55,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575526129009</updated>
-      <workItem from="1575526158754" duration="8049000" />
+      <workItem from="1575526158754" duration="8802000" />
+      <workItem from="1575548209641" duration="14129000" />
     </task>
     <servers />
   </component>
@@ -102,7 +68,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -112,9 +80,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/pages/post.js</url>
-          <line>3</line>
-          <properties lambdaOrdinal="-1" />
+          <url>file://$PROJECT_DIR$/pages/postview.js</url>
+          <line>2</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
