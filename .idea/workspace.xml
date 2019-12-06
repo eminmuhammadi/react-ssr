@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21c19f08-47bd-4b5f-9f6c-8a60b72247c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/100x100.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/16x9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/64x64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/username.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_postview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_postview.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_universal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_universal.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/PostView.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PostView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Seo.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/postview.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/postview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/username.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/username.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,8 @@
       <workItem from="1575526158754" duration="8802000" />
       <workItem from="1575548209641" duration="24399000" />
       <workItem from="1575611698974" duration="3252000" />
-      <workItem from="1575616581644" duration="9335000" />
+      <workItem from="1575616581644" duration="9429000" />
+      <workItem from="1575666269576" duration="9451000" />
     </task>
     <servers />
   </component>

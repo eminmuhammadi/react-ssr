@@ -1,5 +1,5 @@
 import React , {Component} from 'react';
-import Seo from "../components/Seo";
+import Page from "../components/Page";
 import '../assets/scss/index.scss';
 
 import {PostHeader, PostTitle ,  PostLayout, PostImage, PostUtils , PostUtilsItems , PostData , PostHelper} from '../components/PostView';
@@ -28,7 +28,7 @@ class PostView extends Component {
         }
 
         return(
-            <Seo title={data.title}
+            <Page title={data.title}
                   description="Description"
                   image="image"
                   location={"/@"+data.username+"/"+data.postslug}>
@@ -44,13 +44,13 @@ class PostView extends Component {
                                         style={{ backgroundColor: require('../assets/images/64x64.png?lqip-colors')[0] }}
                                         children={<PostUtils children={<PostUtilsItems/>}/>}/>
 
-                            <PostTitle name={data.title}/>
-
                             <PostImage style={{ backgroundColor: require('../assets/images/16x9.png?lqip-colors')[0] }}
                                        type="image/png" src={require('../assets/images/16x9.png')}
                                        alt="Image Alt"/>
 
                             <PostHelper/>
+
+                            <PostTitle name={data.title}/>
 
                             <PostData html="<p>Hello World</p>"/>
                         </PostLayout>
@@ -62,7 +62,7 @@ class PostView extends Component {
                         </Container>
                     </Col>
                   </Row>
-            </Seo>
+            </Page>
         );
     }
 }

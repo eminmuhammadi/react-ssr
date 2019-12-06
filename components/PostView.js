@@ -71,7 +71,7 @@ class PostTitle  extends Component{
 
     render() {
         return(
-            <div className="container post-title pt-1 pb-1">
+            <div className="container post-title pt-2 pb-1">
                 <h1>{this.props.name}</h1>
             </div>
         );

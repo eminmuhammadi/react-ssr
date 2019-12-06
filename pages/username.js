@@ -1,5 +1,5 @@
 import React , {Component} from 'react';
-import Seo from "../components/Seo";
+import Page from "../components/Page";
 import '../assets/scss/index.scss';
 
 
@@ -25,13 +25,13 @@ class Username extends Component {
         }
 
         return(
-            <Seo title={data.title}
-                 description="Description"
-                 image="image"
-                 location={"/@"+data.username}>
+            <Page title={data.title}
+                  description="Description"
+                  image="image"
+                  location={"/@"+data.username}>
 
                 <h1>{data.username}</h1>
-            </Seo>
+            </Page>
         );
     }
 }
