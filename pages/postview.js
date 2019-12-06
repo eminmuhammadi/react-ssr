@@ -9,43 +9,49 @@ class PostView extends Component {
 
     static async getInitialProps({ query, res }) {
 
-        const post = {
+        const data = {
             username : query.username,
             postslug : query.postslug,
             title    : 'Hello World'
         };
 
-        if (!post && res) {
+        if (!data && res) {
             res.statusCode = 404
         }
-        return { post }
+        return { data }
     }
 
     render() {
-        const { post } = this.props;
-        if (!post) {
-            return(<h1>Post Not Found</h1>);
+        const { data } = this.props;
+        if (!data) {
+            return(<h1>Data Not Found</h1>);
         }
 
         return(
-            <Seo title={post.title}
+            <Seo title={data.title}
                   description="Description"
                   image="image"
-                  location={"/@"+post.username+"/"+post.postslug}>
+                  location={"/@"+data.username+"/"+data.postslug}>
 
                   <Row noGutters={true}>
                     <Col sm={12} md={9} className="mt-3 mb-3">
                         <PostLayout>
-                                <PostHeader author="Emin Muhammadi"
-                                            date="29 Oct 2019"
-                                            src="https://dummyimage.com/64x64/"
-                                            alt="Image Alt"
-                                            children={<PostUtils children={<PostUtilsItems/>}/>}/>
+                            <PostHeader username={data.username}
+                                        author="Emin Muhammadi"
+                                        date="29 Oct 2019"
+                                        src={require('../assets/images/64x64.png')}
+                                        alt="Image Alt"
+                                        style={{ backgroundColor: require('../assets/images/64x64.png?lqip-colors')[0] }}
+                                        children={<PostUtils children={<PostUtilsItems/>}/>}/>
 
-                            <PostTitle name={post.title}/>
+                            <PostTitle name={data.title}/>
 
-                            <PostImage src="https://dummyimage.com/16:9x1080/" alt="Image Alt"/>
+                            <PostImage style={{ backgroundColor: require('../assets/images/16x9.png?lqip-colors')[0] }}
+                                       type="image/png" src={require('../assets/images/16x9.png')}
+                                       alt="Image Alt"/>
+
                             <PostHelper/>
+
                             <PostData html="<p>Hello World</p>"/>
                         </PostLayout>
                     </Col>

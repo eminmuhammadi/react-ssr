@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21c19f08-47bd-4b5f-9f6c-8a60b72247c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/scss/_colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scss/_postview.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scss/_universal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/PostView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/100x100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/16x9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/64x64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/username.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Seo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/PostView.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PostView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/postview.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/postview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +30,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -55,7 +59,9 @@
       <option name="presentableId" value="Default" />
       <updated>1575526129009</updated>
       <workItem from="1575526158754" duration="8802000" />
-      <workItem from="1575548209641" duration="24139000" />
+      <workItem from="1575548209641" duration="24399000" />
+      <workItem from="1575611698974" duration="3252000" />
+      <workItem from="1575616581644" duration="9335000" />
     </task>
     <servers />
   </component>
@@ -74,5 +80,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

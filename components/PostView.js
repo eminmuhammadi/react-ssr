@@ -1,5 +1,6 @@
 import React , {Component , useState} from 'react';
 import {Button , Modal} from 'react-bootstrap';
+import { Link } from '../routes';
 
 class PostLayout extends Component{
     constructor(props){
@@ -27,9 +28,16 @@ class PostHeader extends Component{
             <div className="post-header pb-2">
                 <div className="container d-flex justify-content-between pb-2">
                     <div className="author d-flex justify-content-start">
-                        <img className="shadow-sm p-1 img-fluid rounded-circle image" src={this.props.src} alt={this.props.alt}/>
-                        <div className="p-1 mt-1 title">
-                            <h6>{this.props.author}</h6>
+                        <img className="shadow-sm img-fluid rounded-circle image"
+                             src={this.props.src}
+                             alt={this.props.alt}
+                             style={this.props.style}/>
+                        <div className="ml-2 p-1 mt-1 title">
+                            <div>
+                            <Link route="username" params={{username:this.props.username}}>
+                                <a>{this.props.author}</a>
+                            </Link>
+                            </div>
                             <small className="text-muted">{this.props.date}</small>
                         </div>
                     </div>
@@ -49,7 +57,9 @@ class PostImage  extends Component{
 
     render() {
         return(
-            <img className="img-fluid post-image" src={this.props.src} alt={this.props.alt}/>
+            <div className="w-100" style={this.props.style}>
+                <img alt={this.props.alt} className="img-fluid post-image" src={this.props.src} />
+             </div>
         );
     }
 }
